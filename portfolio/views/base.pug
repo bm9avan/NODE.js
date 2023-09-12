@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        block title 
+            title #{title}
+        block style 
+        style 
+          include ../script/base.css
+    body 
+        <div> 
+            <div id="nav">
+                <ul>
+                    <li id='li1'  class="left"><a href="/">home</a></li>
+                    <li id='li4'  class="right"><a href="/contact">Contact_me</a></li>
+                    <li id='li3'  class="right"><a href="/subscribe">Subscribe</a></li>
+                    <li id='li2'  class="right"><a href="/project">Projects</a></li>
+                </ul>
+            </div>
+            <div id="hide">
+                span#test1li Click here to go back home page
+                span#test2li Click here to see my PROJECT list
+                span#test3li Click here to get notified when ever I add new projects 
+                span#test4li Click here to contact me directly
+            </div>
+        </div>
+        block info 
+        block script 

@@ -1,0 +1,10 @@
+.left{
+    display: none;
+    /* height: 500px;
+    width: 400px; */
+    background-color: red;
+    background:  url(/home.png) no-repeat ;
+}
+#test1li{
+    display: none;
+}

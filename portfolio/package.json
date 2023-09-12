@@ -1,0 +1,21 @@
+{
+  "name": "bmp",
+  "version": "1.0.0",
+  "description": "hi, im a web developer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webdeveloper",
+    "website",
+    "bmp",
+    "developer"
+  ],
+  "author": "B M PAVAN",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "pug": "^3.0.2"
+  }
+}
