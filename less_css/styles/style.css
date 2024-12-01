@@ -1,0 +1,20 @@
+.title {
+  color: red;
+  border-bottom: 5px solid green;
+}
+.par {
+  background-color: green;
+  border: 1px solid red;
+}
+.pbg {
+  background-color: #ffc8c8;
+  border: 1px solid green;
+}
+.btn {
+  background-color: green;
+  border: 1px solid red;
+}
+.btn:hover {
+  background-color: #ffc8c8;
+  border: 1px solid green;
+}

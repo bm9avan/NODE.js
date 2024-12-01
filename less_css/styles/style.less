@@ -1,0 +1,50 @@
+// to get compiled this code manually we can use command "lessc styles/style.less styles/style.css
+// or else we can use less-watcher as we used in this app
+//    need to globaly downlode the less and less-watcher to make them work, so this not be an react project
+// https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpNmzIb3XQi5QSFiEpK-UxUg
+
+@primary-col:red;
+@second-col:green;
+
+//conditinal functions
+.primary(@isit) when (@isit =true){
+    background-color: @primary-col + 200;
+    border: 1px solid @second-col;
+}
+
+.primary(@isit) when (@isit =false){
+    background-color: @second-col;
+    border: 1px solid @primary-col;
+}
+
+//normal css for
+.title {
+    color: @primary-col;
+    border-bottom: 5px solid @second-col;
+}
+
+.par{
+    .primary(false)
+}
+
+// .pbg{
+//     background-color: @primary-col;
+//     border: 1px solid @second-col;
+// }
+
+.pbg{
+    .primary(true);
+}
+
+// .btn{
+//     background-color: @second-col;
+//     border: 1px solid @primary-col;
+// }
+
+.btn{
+    .primary(false)
+}
+
+.btn:hover{
+    .primary(true);
+}
